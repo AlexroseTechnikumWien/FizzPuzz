@@ -41,7 +41,10 @@ void fizzbuzzoneline(int n)
 
 void mitextrafizz(int n)
 {
+    for(int i = 1; i <= n; i++)
+    {
 
+    }
 }
 
 // Hello everybody, my name is Markiplier, and welcome back to Five Nights at Freddy's!
