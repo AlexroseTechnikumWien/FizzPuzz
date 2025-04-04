@@ -2,6 +2,7 @@
 
 void rekfizzbuzz(int n, int i);
 void fizzbuzzoneline(int n);
+void mitextrafizz(int n);
 
 void fizzbuzz(int n)
 {
