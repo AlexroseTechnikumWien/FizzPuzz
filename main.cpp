@@ -21,6 +21,7 @@ int main()
     int n;                                                  //Nummer zum eingeben
     std::cin >> n;                                          //Eingabe der Nummer
 
+    mitextrafizz(n);
 
     return 0;                                               //return
 }
