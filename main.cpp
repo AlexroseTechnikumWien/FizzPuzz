@@ -42,3 +42,5 @@ void fizzbuzzoneline(int n)
 {
     for(int i = 1; i <= n; i++) i % 3 == 0 && i % 5 == 0 ? std::cout << "FizzBuzz" << std::endl :i % 3 == 0 ? std::cout << "Fizz" << std::endl :i % 5 == 0 ? std::cout << "Buzz" << std::endl :std::cout << i << std::endl;
 }
+
+// Hello everybody, my name is Markiplier, and welcome back to Five Nights at Freddy's!
