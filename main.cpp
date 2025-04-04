@@ -16,11 +16,16 @@ void fizzbuzz(int n)
 
 int main()
 {
-    std::cout << "Enter a number: "; //Nummer eingeben
-    int n;
-    std::cin >> n;
-    fizzbuzz(n);
-    return 0;
+    std::cout << "Enter a number: ";                        //Nummer eingeben
+    int n;                                                  //Nummer zum eingeben
+    std::cin >> n;                                          //Eingabe der Nummer
+    fizzbuzz(n);                                            //Funktion aufrufen
+    std::cout << "Recursive FizzBuzz:" << std::endl;
+    rekfizzbuzz(n, n-(n-1));                                //Rekursive Funktion aufrufen
+    std::cout << "One line FizzBuzz:" << std::endl;
+    fizzbuzzoneline(n);                                     //Funktion aufrufen
+    std::cout << "End of program." << std::endl;            //Ende des Programms
+    return 0;                                               //return
 }
 
 void rekfizzbuzz(int n,int i)
