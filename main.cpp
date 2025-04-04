@@ -1,6 +1,7 @@
 #include <iostream>
 
-void rekfizzbuzz(int n);
+void rekfizzbuzz(int n, int i);
+void fizzbuzzoneline(int n);
 
 void fizzbuzz(int n)
 {
@@ -15,23 +16,21 @@ void fizzbuzz(int n)
 
 int main()
 {
-    std::cout << "Enter a number: ";
+    std::cout << "Enter a number: "; //Nummer eingeben
     int n;
     std::cin >> n;
     fizzbuzz(n);
     return 0;
 }
 
-void rekfizzbuzz(int n, int i)
+void rekfizzbuzz(int n,int i)
 {
-    int i =1;
     if(i > n) return;
     if(i % 3 == 0 && i % 5 == 0) std::cout << "FizzBuzz" << std::endl;
     else if(i % 3 == 0) std::cout << "Fizz" << std::endl;
     else if(i % 5 == 0) std::cout << "Buzz" << std::endl;
     else std::cout << i << std::endl;
-    i++;
-    rekfizzbuzz(n);
+    rekfizzbuzz(n, i + 1);
 }
 
 void fizzbuzzoneline(int n)
