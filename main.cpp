@@ -48,6 +48,7 @@ void mitextrafizz(int n)
         if(i%9==0 && i%5==0)
         {
             std::cout<<"FizzBuzz mit E X T R A F I Z Z" << std::endl;
+            efb++;
         }
         else if(i%3==0 && i%5==0)
         {
