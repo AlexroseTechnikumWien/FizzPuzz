@@ -53,6 +53,8 @@ void mitextrafizz(int n)
             std::cout<<"Fizz" << std::endl;
         else if(i%5==0)
             std::cout<<"Buzz" << std::endl;
+        else
+            std::cout<<i<<std::endl;
     }
 }
 
