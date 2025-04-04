@@ -75,6 +75,7 @@ void mitextrafizz(int n)
     }
 
     std::cout<<"\nStats: "<<std::endl;
+    std::cout<<"Fizz: "<<f<<std::endl;
 }
 
 // Hello everybody, my name is Markiplier, and welcome back to Five Nights at Freddy's!
