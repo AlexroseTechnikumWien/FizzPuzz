@@ -43,7 +43,8 @@ void mitextrafizz(int n)
 {
     for(int i = 1; i <= n; i++)
     {
-
+        if(i%9==0 && i%5==0)
+            std::cout<<"FizzBuzz mit extra fizz" << std::endl;
     }
 }
 
