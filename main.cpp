@@ -41,6 +41,8 @@ void fizzbuzzoneline(int n)
 
 void mitextrafizz(int n)
 {
+    int efb=0,fb=0,ef=0,f=0,b=0;
+
     for(int i = 1; i <= n; i++)
     {
         if(i%9==0 && i%5==0)
