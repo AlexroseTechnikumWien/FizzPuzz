@@ -78,6 +78,7 @@ void mitextrafizz(int n)
     std::cout<<"Fizz: "<<f<<std::endl;
     std::cout<<"Buzz: "<<b<<std::endl;
     std::cout<<"FizzBuzz: "<<fb<<std::endl;
+    std::cout<<"E X T R A F I Z Z: "<<ef<<std::endl;
 }
 
 // Hello everybody, my name is Markiplier, and welcome back to Five Nights at Freddy's!
