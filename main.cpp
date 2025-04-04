@@ -58,6 +58,7 @@ void mitextrafizz(int n)
         else if(i%9==0)
         {
             std::cout<<"E X T R A F I Z Z" << std::endl;
+            ef++;
         }
         else if(i%3==0)
         {
