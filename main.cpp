@@ -68,6 +68,7 @@ void mitextrafizz(int n)
         else if(i%5==0)
         {
             std::cout<<"Buzz" << std::endl;
+            b++;
         }
         else
             std::cout<<i<<std::endl;
